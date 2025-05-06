@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "name": "Home",
+      "route": "/",
+      "sections": ["hero", "features", "testimonials", "cta"]
+    },
+    {
+      "name": "About",
+      "route": "/about",
+      "sections": ["mission", "team", "values"]
+    },
+    {
+      "name": "Contact",
+      "route": "/contact",
+      "sections": ["contact_form", "map", "faq"]
+    }
+  ],
+  "components": {
+    "hero": {
+      "type": "full-width",
+      "elements": ["headline", "subheadline", "cta_button", "hero_image"]
+    },
+    "features": {
+      "type": "grid",
+      "items": 3,
+      "elements": ["icon", "title", "description"]
+    },
+    "testimonials": {
+      "type": "carousel",
+      "elements": ["quote", "name", "role", "avatar"]
+    },
+    "cta": {
+      "type": "centered",
+      "elements": ["headline", "button"]
+    }
+  }
+}

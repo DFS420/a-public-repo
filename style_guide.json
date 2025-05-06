@@ -1,0 +1,28 @@
+{
+  "colors": {
+    "primary": "#3B82F6",
+    "secondary": "#10B981",
+    "background": "#FFFFFF",
+    "text": "#111827",
+    "muted_text": "#6B7280"
+  },
+  "fonts": {
+    "heading": "Inter, sans-serif",
+    "body": "Roboto, sans-serif"
+  },
+  "spacing": {
+    "section_padding": "64px",
+    "element_margin": "24px"
+  },
+  "components": {
+    "button": {
+      "padding": "12px 24px",
+      "border_radius": "8px",
+      "hover_effect": "scale(1.05)"
+    },
+    "card": {
+      "shadow": "0 10px 25px rgba(0,0,0,0.05)",
+      "border_radius": "12px"
+    }
+  }
+}
